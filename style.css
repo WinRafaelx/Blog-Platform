@@ -214,9 +214,10 @@ input[type=submit]:focus {
   margin: 0 4px;
 }
 
-.active {
+.active, .page-num:hover {
   background-color: #757474;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1260px) {
