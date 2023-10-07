@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+}
+
+body {
+  background-color: #EFEFEF;
+}
+
+.navbar {
+  background-color: #FFFFFF;
+}
+
+.icon-img {
+  height: 70px;
+  width: 70px;
+}
+
+.navbar-text {
+  text-decoration: none;
+  color: #BABDBC;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0;
+  font-size: 18px;
+}
+
+.navbar-text img {
+  margin-bottom: 15px;
+}
+
+.navbar-text h5 {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.profile {
+  background-color: #FFFFFF;
+  width: 70%;
+  margin: 30px auto;
+  padding: 50px 30px;
+  color: #333538;
+}
+
+.center {
+  text-align: center;
+}
+
+.img-profile {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.name {
+  margin: 30px 0 10px 0;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.personal-info {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.pro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 30px 0;
+}
+
+.card {
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  text-decoration: none;
+  color: #333538;
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve"><style type="text/css">.blur{filter:url(%23softedge);}</style><filter id="softedge"><feGaussianBlur stdDeviation="3.5"></feGaussianBlur></filter><g class="blur"><rect x="10" y="10" width="80" height="80"/></g></svg>'); 
+	-webkit-mask-size: cover; 
+}
+
+.card p {
+  font-size: 18px;
+  margin: 30px 10px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1260px) {
+  .navbar-text {
+    padding: 10px 0;
+  }
+
+  .navbar-text h5, .right-side {
+    display: none;
+  }
+
+  .navbar-text img {
+    margin-bottom: 0;
+  }
+
+  .profile {
+    width: 90%;
+  }
+}
