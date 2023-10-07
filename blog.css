@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+}
+
+body {
+  background-color: #EFEFEF;
+}
+
+.navbar {
+  background-color: #FFFFFF;
+}
+
+.icon-img {
+  height: 70px;
+  width: 70px;
+}
+
+.navbar-text {
+  text-decoration: none;
+  color: #BABDBC;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0;
+  font-size: 18px;
+}
+
+.navbar-text img {
+  margin-bottom: 15px;
+}
+
+.navbar-text h5 {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.blog {
+  background-color: #FFFFFF;
+  width: 80%;
+  margin: 30px auto;
+  padding: 30px 25px;
+  color: #333538;
+}
+
+.header {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.blog-img {
+  width: 80%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.blog-text {
+  font-size: 20px;
+  margin: 40px 0;
+}
+
+.blog-img-hori {
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 500;
+  color: #333538;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+
+.author-text  {
+  color: #BABDBC;
+}
+
+.author-img {
+  margin-right: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.text-input {
+  width: 100%;
+  padding: 5px 10px;
+  margin-top: 100px;
+  margin-bottom: 15px;
+  border: solid 1.5px #D3D3D3;
+  height: 50px;
+}
+
+.Acomment {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.comment-name {
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.comment-text {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+input[type=text]:hover {
+  box-shadow: 0 0 3pt 0.2pt #73c2fb;
+}
+
+input[type=text]:focus {
+  box-shadow: 0 0 3pt 0.5pt #73c2fb;
+  outline-width: 0px;
+}
+
+@media only screen and (max-width: 1260px) {
+  .navbar-text {
+    padding: 10px 0;
+  }
+
+  .navbar-text h5, .right-side {
+    display: none;
+  }
+
+  .navbar-text img {
+    margin-bottom: 0;
+  }
+
+  .blog {
+    width: 90%;
+  }
+}

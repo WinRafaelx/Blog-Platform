@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,500;9..40,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+</head>
+<body>
+  <section class="Contact pb-5 mt-5" id="Contact">
+    <div class="container">
+      <div class="pt-3 ps-4 fw-bolder mb-2 fs-1">ADD NEW BLOG</div>
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <div class="mt-4 ms-4">
+            <div class="fs-3 fw-semibold">Let's talk about everything!</div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="row">
+
+            <div class="col-md-12">
+              <input
+                type="text"
+                aria-label="Last name"
+                class="shadow rounded-pill form-control mt-4 p-2"
+                placeholder="Name"
+              />
+            <div class="col-md-12">
+              <input
+                type="text"
+                aria-label="Last name"
+                class="shadow rounded-pill form-control mt-4 p-2"
+                placeholder="Type"
+              />
+            </div>
+            <div class="col-md-12">
+              <div class="form-floating mt-4">
+                <textarea
+                  class="shadow form-control"
+                  placeholder="Leave a comment here"
+                  id="floatingTextarea2"
+                  style="height: 200px"
+                  aria-placeholder="Detail"
+                ></textarea>
+                <label for="floatingTextarea2"
+                  >Detail</label
+                >
+              </div>
+            </div>
+            <div class="d-flex">
+              <button
+                type="button"
+                class="btn btn-outline-danger rounded-pill p-2 me-2 ps-4 pe-4 fw-semibold mt-4"
+                onclick="backHome()"
+              >
+                Back to Home
+              </button>
+              <button
+                type="button"
+                class="btn btn-success rounded-pill p-2 ps-4 pe-4 fw-semibold mt-4"
+                onclick="backHome()"
+              >
+                Send Message
+              </button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="main.js"></script>
+</body>
+</html>
