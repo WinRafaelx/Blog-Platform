@@ -13,15 +13,14 @@ const addBlogs = async () => {
 
 const showBlogs = async () => {
   await fetch('./data.json').then((res) => res.json()).then((data) => {
-    console.log(data);
     const StoryBoard = document.getElementById("StoryBoard");
-    data.forEach((blog) => {
+    data.forEach((blog, index) => {
 
       const whiteBoard = document.createElement("div");
       whiteBoard.className = "white-bg";
 
       const aTag = document.createElement("a");
-      aTag.href = `/blog.html`;
+      aTag.href = `/blog.html?id=${index +1}`;
       aTag.className = "card";
 
       const img = document.createElement("img");
@@ -35,14 +34,14 @@ const showBlogs = async () => {
 
       const content = document.createElement("div");
       content.className = "card-detail";
-      content.innerHTML = blog.content[1][1].slice(0, count) + (blog.content[1][1].length > count ? "..." : "") + ` <a href="/blog.html" class="read-more">Read more</a>`;
+      content.innerHTML = blog.content[1][1].slice(0, count) + (blog.content[1][1].length > count ? "..." : "") + ` <a href="/blog.html?id=${index +1}" class="read-more">Read more</a>`;
       
 
       aTag.appendChild(img);
-      aTag.appendChild(header);
-      aTag.appendChild(content);
-
       whiteBoard.appendChild(aTag);
+      whiteBoard.appendChild(header);
+      whiteBoard.appendChild(content);
+
       StoryBoard.appendChild(whiteBoard);
     });
   });
