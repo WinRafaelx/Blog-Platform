@@ -18,6 +18,11 @@ body {
   width: 70px;
 }
 
+.category {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
 .navbar-text {
   text-decoration: none;
   color: #BABDBC;
@@ -66,6 +71,7 @@ body {
 .detail {
   color: #333538;
   background-color: #FFFFFF;
+  padding-bottom: 20px;
 }
 
 .task-text {
@@ -85,6 +91,16 @@ body {
   margin: 20px 15px;
   padding-bottom: 10px;
   line-height: 21px;
+  border-bottom: #333538 1px solid;
+}
+
+.Topic-right {
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  line-height: 21px;
+  margin: 0 25px;
   border-bottom: #333538 1px solid;
 }
 

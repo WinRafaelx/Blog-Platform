@@ -4,6 +4,7 @@
     "title": "Doraemon The Movie 2023: Nobita's Sky Utopia",
     "author": "Mawin S",
     "img_author": "https://i.pinimg.com/564x/5b/1f/6e/5b1f6ebdde21b868decbd7bbdd957875.jpg",
+    "category": ["Adventure", "Drama", "Fantasy"],
     "time": "10 minutes ago",
     "views": 100,
     "content": [
@@ -30,6 +31,7 @@
     "title": "Lost in Time",
     "author": "Mawin S",
     "img_author": "https://i.pinimg.com/564x/5b/1f/6e/5b1f6ebdde21b868decbd7bbdd957875.jpg",
+    "category": ["Adventure", "Sci-Fi"],
     "time": "10 minutes ago",
     "views": 80,
     "content": [
@@ -48,6 +50,7 @@
     "title": "The Magical Bookstore",
     "author": "CielSama",
     "img_author": "https://i.pinimg.com/564x/3e/a4/ed/3ea4ed1b0f537ecce1d8c26cac4c3741.jpg",
+    "category": ["Fantasy", "Sci-Fi"],
     "time": "10 minutes ago",
     "views": 100,
     "content": [
@@ -66,6 +69,7 @@
     "title": "Underwater Odyssey",
     "author": "DarkKami",
     "img_author": "https://i.pinimg.com/564x/f9/88/a3/f988a34cbbc967308ebccb2843e9d616.jpg",
+    "category": ["Adventure", "Fantasy", "Sci-Fi"],
     "time": "10 minutes ago",
     "views": 100,
     "content": [
@@ -84,6 +88,7 @@
     "title": "The Mystery of the Haunted Mansion",
     "author": "CielSama",
     "img_author": "https://i.pinimg.com/564x/3e/a4/ed/3ea4ed1b0f537ecce1d8c26cac4c3741.jpg",
+    "category": ["Adventure", "Fantasy", "Sci-Fi"],
     "time": "10 minutes ago",
     "views": 100,
     "content": [
@@ -102,6 +107,7 @@
     "title": "The Forgotten Planet",
     "author": "OnFire",
     "img_author": "https://i.pinimg.com/564x/24/39/dd/2439dd68c3a7158c7b868d3380984ddb.jpg",
+    "category": ["Adventure", "Fantasy", "Sci-Fi"],
     "time": "10 minutes ago",
     "views": 100,
     "content": [
@@ -120,6 +126,7 @@
     "title": "The Whispering Woods",
     "author": "DarkKami",
     "img_author": "https://i.pinimg.com/564x/f9/88/a3/f988a34cbbc967308ebccb2843e9d616.jpg",
+    "category": ["Fantasy", "Sci-Fi"],
     "time": "10 minutes ago",
     "views": 100,
     "content": [
@@ -138,6 +145,7 @@
     "title": "The Timeless Pocket Watch",
     "author": "OnFire",
     "img_author": "https://i.pinimg.com/564x/24/39/dd/2439dd68c3a7158c7b868d3380984ddb.jpg",
+    "category": ["Comedy", "Drama", "Sci-Fi"],
     "time": "10 minutes ago",
     "views": 100,
     "content": [
@@ -156,6 +164,7 @@
     "title": "The Starship Chronicles",
     "author": "Zen",
     "img_author": "https://i.pinimg.com/564x/c3/6e/a2/c36ea2c1cafa6f07bc986742144358e0.jpg",
+    "category": ["Adventure", "Comedy", "Drama", "Sci-Fi"],
     "time": "10 minutes ago",
     "views": 100,
     "content": [
@@ -174,6 +183,7 @@
     "title": "The Hidden Talent",
     "author": "DarkKami",
     "img_author": "https://i.pinimg.com/564x/f9/88/a3/f988a34cbbc967308ebccb2843e9d616.jpg",
+    "category": ["Adventure", "Drama"],
     "time": "10 minutes ago",
     "views": 100,
     "content": [
@@ -192,6 +202,7 @@
     "title": "The Art of Dreams",
     "author": "Zen",
     "img_author": "https://i.pinimg.com/564x/c3/6e/a2/c36ea2c1cafa6f07bc986742144358e0.jpg",
+    "category": ["Adventure", "Fantasy", "Sci-Fi"],
     "time": "10 minutes ago",
     "views": 100,
     "content": [

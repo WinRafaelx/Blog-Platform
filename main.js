@@ -1,4 +1,12 @@
 const count = 140;
+const tag = window.location.search.slice(5)
+
+function filterSearch(val) {
+  if(val)
+    window.location.href = `?tag=${val}`;
+  else
+    window.location.href = `/`;
+}
 
 function backHome() {
   window.location.href = "index.html"
@@ -11,10 +19,20 @@ const addBlogs = async () => {
   });
 }
 
+if(tag) {
+  const tagLi = document.getElementById(tag);
+  tagLi.style.color = "#CC0000";
+} else {
+  const tagLi = document.getElementById("All");
+  tagLi.style.color = "#CC0000";
+}
+
 const showBlogs = async () => {
   await fetch('./data.json').then((res) => res.json()).then((data) => {
     const StoryBoard = document.getElementById("StoryBoard");
     data.forEach((blog, index) => {
+      if(tag && blog.category.includes(tag) != 1) return;
+      console.log(blog.category.includes(tag), tag);
 
       const whiteBoard = document.createElement("div");
       whiteBoard.className = "white-bg";
@@ -47,5 +65,5 @@ const showBlogs = async () => {
   });
 }
 
-
 showBlogs();
+
