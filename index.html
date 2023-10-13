@@ -119,6 +119,15 @@
           </div>
         </div>
         <div class="main">
+          <div class="white-bg">
+            <div class="search-main">
+              <input type="text" id="search-val" placeholder="Keyword. Name, Author, ..." class="search-input" />
+              <i class="bi bi-search search-icon" onclick="test()"></i>
+            </div>
+            <div class="tag">
+              <p id="tag-detail"></p>
+            </div>
+          </div>
           <div id="StoryBoard">
 
           </div>
@@ -319,10 +328,14 @@
               <li class="category" id="Fantasy" onclick="filterSearch('Fantasy')">Fantasy</li>
               <li class="category" id="Sci-Fi" onclick="filterSearch('Sci-Fi')">Sci-Fi</li>
               <li class="category" id="All" onclick="filterSearch('')">All</li>
+              <br>
+              <li class="special-color top10" id="top10" onclick="filterSearch('top10')">Top 10 Most Popular</li>
             </ul>
           </div>
-            <div class="Topic-left" style="margin: 30px 25px">CIEL SHOP</div>
+            <div class="Topic-left" style="margin: 30px 25px 10px 25px;">CIEL STATISTIC</div>
             <div style="margin: 0 25px">
+              <div id="blogs-vol" class="statistic"></div>
+              <div id="views-vol" class="statistic"></div>
               <img
                 src="https://i.pinimg.com/564x/5d/5b/c4/5d5bc4dac2009ba8efbd91b6a89d12fe.jpg"
                 alt=""
@@ -332,11 +345,6 @@
             </div>
             <div class="passage" style="margin: 20px 25px">
               Find all CIEL products on our shop here »
-            </div>
-            <div class="Topic-left" style="margin: 30px 25px">SEARCH</div>
-            <div class="search">
-              <input type="text" placeholder="Search" class="search-input" />
-              <i class="bi bi-search search-icon"></i>
             </div>
             
           </div>
