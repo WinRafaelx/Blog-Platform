@@ -23,6 +23,16 @@ fetch('./statistic.json').then((res) => res.json()).then((data) => {
 const tagAppear = document.getElementById("tag-detail");
 tagAppear.innerHTML = appearTag;
 
+function  changeTheme() {
+  const checkbox = document.getElementById("changeTheme");
+  
+  if(checkbox.checked) {
+    document.body.style.setProperty('background-color', '#CBF3F9');
+  } else {
+    document.body.style.setProperty('background-color', '#EFEFEF');
+  }
+}
+
 function test() {
   const input = document.getElementById("search-val").value;
   window.location.href = `?search=${input}`;
