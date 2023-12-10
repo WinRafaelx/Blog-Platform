@@ -12,7 +12,7 @@ I have create this website to practice my skill by using only basic tools withou
 - About author Page/ Profiel
 - Content for each post
 
-  ## Sample
+  ## Samples
 
   <!-- Create a table with 2 rows and 2 columns -->
 <table>
